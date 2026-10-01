@@ -1,7 +1,13 @@
 import React from 'react'
 import ball from "./assets/logo.png";
 import london from "./assets/london.png";
-
+import newyork from "./assets/newyork.png";
+import washington from "./assets/washington.png";
+import library from "./assets/library.png";
+import basketball from "./assets/basketball.png";
+import user1 from "./assets/user1.jpg";
+import user2 from "./assets/user2.jpg";
+import cafeteria from "./assets/cafeteria.png";
 const App = () => {
   return (
     <div>
@@ -71,13 +77,13 @@ const App = () => {
                          </div>
                     </div>
                     <div className="campus-col">
-                        <img src="eduford_img/newyork.png" alt="New York" />
+                        <img src={newyork} alt="New York" />
                          <div className="layer">
                           <h3>NEW YORK</h3>
                          </div>
                     </div>
                     <div className="campus-col">
-                         <img src="eduford_img/washington.png" alt="Washington" />
+                         <img src={washington} alt="Washington" />
                          <div className="layer">
                           <h3>WASHINGTON</h3>
                          </div>
@@ -95,7 +101,7 @@ const App = () => {
 
           <div className="row">
               <div className="facilities-col">
-                 <img src="eduford_img/library.png" alt="Library" />
+                 <img src={library} alt="Library" />
                  <h3>WORLD CLASS LIBRARY</h3>
                  <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -103,7 +109,7 @@ const App = () => {
                  </p>
               </div>
               <div className="facilities-col">
-                 <img src="eduford_img/basketball.png" alt="Basketball" />
+                 <img src={basketball} alt="Basketball" />
                  <h3>LARGEST PLAY GROUND</h3>
                  <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -111,7 +117,7 @@ const App = () => {
                  </p>
               </div>
               <div className="facilities-col">
-                 {/* <img src="eduford_img/cafeteria.png" /> */}
+                 <img src={cafeteria} alt="Cafeteria" />
                  <h3>TASTY AND HEALTHY FOOD</h3>
                  <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -131,7 +137,7 @@ const App = () => {
 
           <div className="row">
               <div className="testimonials-col">
-                  <img src="eduford_img/user1.jpg" alt="User 1" />
+                  <img src={user1} alt="User 1" />
                   <div>
                       <p>
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -146,7 +152,7 @@ const App = () => {
                   </div>
               </div>
               <div className="testimonials-col">
-                  <img src="eduford_img/user2.jpg" alt="User 2" />
+                  <img src={user2} alt="User 2" />
                   <div>
                       <p>
                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
